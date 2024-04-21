@@ -1,0 +1,19 @@
+.attribute {
+    border: 1px solid rgb(111, 111, 111);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+  }
+
+  .attribute-key {
+    width:  60px;
+    display: flex;
+    justify-content: center;
+}
+
+.attribute-value {
+    display: flex;
+    justify-content: center;
+    background-color: var(--button-base);
+    flex-grow: 1;
+}

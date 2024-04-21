@@ -1,0 +1,30 @@
+.search-bar {
+  display: flex;
+}
+
+.search-actions {
+  display: flex;
+}
+
+@media (width <= 350px) {
+  .search-bar {
+    flex-direction: column;
+  }
+
+  .search-actions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+.search-input {
+  width: 100%;
+}
+
+.request-label {
+  font-size: xx-small;
+  position: absolute;
+  top: 5px;
+  margin: 0;
+}

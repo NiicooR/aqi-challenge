@@ -1,0 +1,19 @@
+.location-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.location-span {
+  font-weight: bold;
+}
+
+@media (width <= 650px) {
+  .location-section {
+    flex-direction: column;
+  }
+  .location-label {
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+}

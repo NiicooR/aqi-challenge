@@ -1,0 +1,10 @@
+.landing-section {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-text {
+  opacity: 0.3;
+}
